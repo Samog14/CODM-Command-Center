@@ -1,6 +1,6 @@
 import type { ApiEnvelope, ApiErrorBody } from "./types";
 
-export const API_URL = `${process.env.API_URL ?? "http://localhost:4000"}/api/v1`;
+export const API_URL = `${process.env.API_URL}/api`;
 
 let authToken: string | null = null;
 
